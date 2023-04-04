@@ -11,6 +11,8 @@ for(let i=0;i<n;i++){
         repeated=x
         console.log(repeated)
     }
+   
+}
     else{
         arr[index]*=-1
     }
