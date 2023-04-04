@@ -11,13 +11,13 @@ function uniquePair(arr) {
         } else {
             mp.set(arr[i], 1)
         }
-        console.log(mp)
+     
        
        
       mp.forEach((value,key)=>{
-        if(value %2==1){
+        
             ans.push(key)
-        }
+        
       })
     }
    
