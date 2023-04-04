@@ -23,6 +23,7 @@ function isAnagram(str1,str2){
         }else if(freq1[key]!=freq2[key]){
             return false
         }
+
             
     }
    return true
