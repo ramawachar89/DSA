@@ -1,4 +1,4 @@
-functionisPalindrome(S){
+function isPalindrome(S){
     let a=S.split('').join()
     let b=S.split('').reverse().join()
      if(a==b){
