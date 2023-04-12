@@ -12,11 +12,12 @@ function countPair(arr){
           i++;
           j--;
         }else if(arr[i]+arr[j]>k){
-            j--
+            j--;
         }else{
             i++
         }
-    }
+    }  
+
     return ans
 }
 console.log(countPair(array))
