@@ -9,11 +9,11 @@ function binarySearch(arr){
         let mid=Math.floor(((start+end)/2))
         if(arr[mid]==x){
             ans=mid
-            break
+            break;
         }else if(x>arr[mid]){
             start=mid+1
         }else{
-            end=mid-1
+            end=mid-1;
         }
     }
     console.log(ans)
