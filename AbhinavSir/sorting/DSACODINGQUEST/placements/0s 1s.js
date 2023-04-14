@@ -3,12 +3,12 @@ function sort(arr){
   let l=0
   let r=arr.length-1;
  while(i<=r){
-    if(arr[i]==3){
+    if(arr[i]==0){
         let temp=arr[i]
         arr[i]=arr[r]
         arr[r]=temp
         r--
-    } else if(arr[i]==0){
+    } else if(arr[i]==1){
         let temp=arr[i]
         arr[i]=arr[l]
         arr[l]=temp
@@ -23,5 +23,5 @@ function sort(arr){
   
   return arr
 }
-let arr=[0,1,2,2,1,1,3,2,2,1,2,2]
+let arr=[0,1,0,0,1,1,0,1,0,1]
 console.log(sort(arr))
