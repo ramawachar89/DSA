@@ -15,13 +15,13 @@ function sort(arr){
         i++
         l++
     }else{
-        i++
+        i++;
     }
    
  }
 
   
-  return arr
+  return arr;
 }
 let arr=[0,1,0,0,1,1,0,1,0,1]
 console.log(sort(arr))
