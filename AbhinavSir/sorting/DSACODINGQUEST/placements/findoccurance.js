@@ -1,4 +1,4 @@
-//First and last occurrences of x  (2method)
+// First and last occurrences of x  (2method)
 // function find(arr,x){
 //     let start=0;
 //        let end=arr.length-1;
@@ -19,22 +19,39 @@
 //    }
 //    console.log(find([ 1, 3, 5, 5, 5, 5, 67, 123, 125],5))
 
-function find(arr,x){
-    let left=0
-    let right=arr.length-1;
-    let ans=[-1,-1];
-    while(left<=arr.length-1 && right>=0){
+// function find(arr,x){
+//     let left=0
+//     let right=arr.length-1;
+//     let ans=[-1,-1];
+//     while(left<=arr.length-1 && right>=0){
+//         if(arr[left]==x && ans[0]==-1){
+//             ans[0]=left
+//         }
+//         if(arr[right]==x && ans[1]==-1){
+//             ans[1]=right
+//         }
+//         left++
+//         right--
+//     }
+//     return ans
+// }
+// console.log(find([ 1, 3, 5, 5, 5, 5, 67, 123, 125],5))
+
+
+function occ(arr,x){
+    let left=0;
+    let right=arr.length-1
+    let ans=[-1,-1]
+    while(left<=arr.length && right>=0){
         if(arr[left]==x && ans[0]==-1){
             ans[0]=left
-        }
-        if(arr[right]==x && ans[1]==-1){
+        }else if(arr[right]==x&&ans[1]==-1){
             ans[1]=right
         }
-        left++
+        left++;
         right--
     }
     return ans
 }
-console.log(find([ 1, 3, 5, 5, 5, 5, 67, 123, 125],5))
-  
+console.log(occ([ 1, 3, 5, 5, 5, 5, 67, 123, 125],5))
     
