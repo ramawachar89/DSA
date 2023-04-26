@@ -1,4 +1,4 @@
-let arr=[1,2,6,7,9,8,22,,44,77]
+let arr=[1,2,6,7,9,4,8,22,44,77]
 let x=7;
 
 function binarySearch(arr){
