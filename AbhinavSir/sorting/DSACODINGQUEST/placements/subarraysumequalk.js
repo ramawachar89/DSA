@@ -10,4 +10,4 @@ var subarraySum = function(arr, k) {
         else map.set(sum,1)
     }
     return count
-};//
+};
