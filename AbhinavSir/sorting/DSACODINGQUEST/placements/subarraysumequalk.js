@@ -1,3 +1,4 @@
+let arr=[1,2,3,4]
 var subarraySum = function(arr, k) {
     let map=new Map()
     let count=0
@@ -11,3 +12,4 @@ var subarraySum = function(arr, k) {
     }
     return count
 };
+console.log(subarraySum(arr))
