@@ -40,6 +40,7 @@ var n=a.length,m=b.length
 let c=new Array(m+n)
 
 let i=0,j=0,k=0
+function aa(){
 while(i<n&&j<m){
     if(a[i]<b[j]){
         c[k]=a[i]
@@ -64,5 +65,7 @@ while(j<m){
     k++
     j++
 }
-
 console.log(c)
+}
+console.log(aa())
+
