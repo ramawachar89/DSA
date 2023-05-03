@@ -30,4 +30,4 @@ function isAnagram(str1,str2){
    }
 
 }
-console.log(isAnagram(""))
+console.log(isAnagram("kjkk"))
