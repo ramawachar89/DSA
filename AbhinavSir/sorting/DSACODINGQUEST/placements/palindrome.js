@@ -8,7 +8,7 @@ function isPalindrome(data){
   }
   start++
   end--
- }
+ }//
  return true
 }
 console.log(isPalindrome("assba"))
