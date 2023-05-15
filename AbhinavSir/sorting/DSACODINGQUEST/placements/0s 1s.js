@@ -16,7 +16,7 @@ function sort(arr){
         l++
     }else{
         i++;
-    }
+    }//
    
  };
 
