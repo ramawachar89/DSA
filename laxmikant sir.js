@@ -9,7 +9,7 @@ const assets = [
 const videos = assets.filter(asset => asset.type === "video");
 console.log(videos)
 
-// 2. Loose Equality Operators
+// 2. Loose Equality Operators//
 
 console.log([100] == 100); // true
 console.log([100] === 100); // false
